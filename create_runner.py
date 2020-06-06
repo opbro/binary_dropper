@@ -63,7 +63,7 @@ for thr in threads:
 """
     with open('runner_script.py', 'w') as _file:
         _file.write(runner_file)
-    print("Compiled binaries into : runner_script.exe")
+    print("Compiled binaries into : runner_script.py")
 
 if __name__ == "__main__":
     main()
